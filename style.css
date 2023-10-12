@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at center, rgb(37, 191, 251), rgb(215, 242, 252))
+}
+
+h1{
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(23, 128, 162);
+    text-shadow: 3px 3px 5px white;
+    margin-top: 150px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+    
+}
+
+.box{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px gray;
+}
